@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>AKIDA BUILDERS LTD.</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1 {font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+.bgimg {
+  background-image: url("pic.jpg");
+  min-height: 100%;
+  min-width: 100%;
+  background-position: center;
+  background-size: cover;
+ 
+}
+.logo{
+  width: 180px;
+  height: 30px;
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
+<div class="w3-top">
+  <div class="w3-bar w3-card w3-text-black" style="background-color: #c4b0ab;">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="index.html" class="w3-bar-item w3-padding-large w3-left"><img src="logo2.png" class="logo"></a>
+    
+    
+    <a href="index.html#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small  w3-right">CONTACT</a>
+    <a href="index.html#projects" class="w3-bar-item w3-button w3-padding-large w3-hide-small  w3-right">PROJECTS</a>
+    <div class="w3-dropdown-hover w3-hide-small w3-right">
+      <button class="w3-padding-large w3-button " title="aboutus">ABOUT US  <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4" style="background-color: #c4b0ab;">
+        <a href="#" class="w3-bar-item w3-button ">OUR STORY</a>
+        <a href="bod.html" class="w3-bar-item w3-button ">BOARD OF DIRECTORS</a>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px; background-color: #c4b0ab;">
+  <a href="#" class="w3-bar-item w3-button w3-padding-large " onclick="myFunction()">OUR STORY</a>
+  <a href="bod.html" class="w3-bar-item w3-button w3-padding-large " onclick="myFunction()">BOARD OF DIRECTORS</a>
+  <a href="index.html#projects" class="w3-bar-item w3-button w3-padding-large " onclick="myFunction()">PROJECTS</a>
+  <a href="index.html#contact" class="w3-bar-item w3-button w3-padding-large " onclick="myFunction()">CONTACT</a>
+</div>
+
+ <div class="w3-display-middle w3-text-white">
+    <h1 class="w3-jumbo w3-animate-top w3-center">WELCOME</h1>
+    <hr class="w3-border-black" style="margin:auto;width:50%">
+    <p class="w3-xlarge w3-center w3-black w3-padding-large w3-text-white" style="opacity: 0.65;">AKIDA BUILDERS LIMITED</p>
+  </div>
+</div>
+
+<!-- Page content -->
+<div style="background-color: #c4b0ab;">
+<div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px;" id="AKIDA">
+    <h2 class="w3-wide">A TRUSTWORTHY DEVELOPER</h2>
+    <!-- <h3 class= "w3-wide"> OUR STORY </h3> -->
+    
+    <p class="w3-justify">Akida Builders Ltd. started its journey in 2019 in the real-estate sector with it's first project namely "AKIDA SAIKAT" at Bashundhara R/A
+
+Akida Builders Ltd. is also involved in businesses like Akida Fisheries & Agro, Akida Events & Akida IT Solution. 
+
+Our Managing Director Md. Zakir Hossain Bhuiyan has a long track record of construction since 2000, having been involved in various projects of its own. He has been involved in constructing many mega structures of Dhaka city in various prime locations.
+Eventually to pursue the passion for his own construction, Akida Builders Ltd.  was established in 2016 with a mission to change the lifestyle of city dwellers by providing modern, functional and aesthetic living and working spaces that can only be compared to the most successful developers of the globe.
+
+With the belief that construction is not just about building structures - but an Art, SHL goes beyond the traditional scopes of property development and integrates the best the world has to offer. Since then, Akida Builders Ltd. has been working on to be one of the most reputed and fastest growing real estate developer of the country. </p>
+   
+</div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-48 w3-center w3-opacity-min w3-xlarge" style="background-color: #c4b0ab; ">
+  <a href="#" class="w3-button" style="background-color: #c4b0ab;"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <p class="w3-medium">Powered by <a href="index.html" target="_blank">Akida Builders Limited</a></p>
+</footer>
+
+<script>
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+
+</script>
+
+</body>
+</html>
